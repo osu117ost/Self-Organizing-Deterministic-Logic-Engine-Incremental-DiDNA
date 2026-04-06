@@ -1,0 +1,18 @@
+source,type,status,notes
+https://mlcommons.org/benchmarks/,official_source,pending,internal_review
+https://docs.mlcommons.org/inference/index_gh/,official_source,pending,internal_review
+https://github.com/erikbern/ann-benchmarks,official_source,pending,internal_review
+https://github.com/harsha-simhadri/big-ann-benchmarks,official_source,pending,internal_review
+https://github.com/facebookresearch/faiss/wiki/Binary-hashing-index-benchmark,official_source,pending,internal_review
+https://github.com/facebookresearch/faiss,official_source,pending,internal_review
+https://github.com/nmslib/hnswlib,official_source,pending,internal_review
+https://github.com/nmslib/nmslib,official_source,pending,internal_review
+https://github.com/brianfrankcooper/YCSB,official_source,pending,internal_review
+https://github.com/google/benchmark,official_source,pending,internal_review
+https://github.com/eembc/coremark,official_source,pending,internal_review
+https://moa.cms.waikato.ac.nz/,official_source,pending,internal_review
+https://riverml.xyz/latest/,official_source,pending,internal_review
+https://www.openml.org/benchmark,official_source,pending,internal_review
+https://archive.ics.uci.edu/,official_source,pending,internal_review
+synthetic_binary256,synthetic,pending,dataset legal review required
+openml:adult,openml,pending,dataset legal review required

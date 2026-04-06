@@ -1,0 +1,209 @@
+{
+  "generated_utc": "2026-04-06T00:23:24Z",
+  "stack_root": "bench_runs/dossier_official_stack_20260406_100M_readable/OFFICIAL_STACK",
+  "run_ids": [
+    "20260405T230026Z_0b28f298",
+    "20260405T230137Z_5d7213c1",
+    "20260405T162225Z_22f14610",
+    "20260405T230146Z_5dbac053",
+    "20260406T000140Z_669d8f63"
+  ],
+  "overall_status": "pass",
+  "files": [
+    {
+      "path": "00_OVERVIEW/00_NAVIGATION.md",
+      "bytes": 778,
+      "sha256": "88aa1821df785ff2ed7b96d363cfe36a769a19b5d45b8295df8f2ffb4157f01a"
+    },
+    {
+      "path": "00_OVERVIEW/01_EXECUTIVE_SUMMARY.md",
+      "bytes": 2098,
+      "sha256": "8d48a726d49cc8eff3f721da77b8b1a67c033695d909f754bf8c9130dd39a216"
+    },
+    {
+      "path": "00_OVERVIEW/02_ACCEPTANCE_GATES.json",
+      "bytes": 1372,
+      "sha256": "0802f9272db459baec09b3b4a71ece15dfadb89453f424e31313d2c19a5cbeaa"
+    },
+    {
+      "path": "01_SPECIFICATION/01_SPECIFICATION.md",
+      "bytes": 5363,
+      "sha256": "1cea65c0577ff7745b97fd12f139f54346c12b5ef403ba48129b1a9135e2f4bd"
+    },
+    {
+      "path": "01_SPECIFICATION/02_STORAGE_CHARACTERISTICS.md",
+      "bytes": 1216,
+      "sha256": "6652386bd3a20bf447f397982ad6fad6b94d87b41ada9aa1e7a459351abbff56"
+    },
+    {
+      "path": "02_BENCH_METHODS/01_BENCH_REPORT.md",
+      "bytes": 4503,
+      "sha256": "402f09549aee32ec185fc715106428a77dac6c6e021bdacdb8a6cd7c4291f3c5"
+    },
+    {
+      "path": "02_BENCH_METHODS/02_EXTERNAL_BENCHMARKS.md",
+      "bytes": 3908,
+      "sha256": "9ed15349e3d941e68bb4b49731c12d15f88ba865949e05a6da9c9bd827d57cce"
+    },
+    {
+      "path": "02_BENCH_METHODS/03_EXTERNAL_BENCHMARKS.csv",
+      "bytes": 2071,
+      "sha256": "2f0a1473fd8171063dc6395d333841f0da6da4057e918420bc39216a48eabdef"
+    },
+    {
+      "path": "03_RESULTS/01_REPORT_SUMMARY.csv",
+      "bytes": 18693,
+      "sha256": "cbdaae7085826f1c8e29960500d61bad3ea0ac5daf03d7b11b291c16ab470cd4"
+    },
+    {
+      "path": "03_RESULTS/02_REPORT_SUMMARY.json",
+      "bytes": 1944,
+      "sha256": "155329883876c4ba0c736ce5af9e74b1ae969b19b06bc2ef2ee2524a2c7f823a"
+    },
+    {
+      "path": "03_RESULTS/03_EVIDENCE_MATRIX.csv",
+      "bytes": 61056,
+      "sha256": "feced043147799f90f20b34ed4f8b565dcc6adfc16a138071a61d2f1adc46891"
+    },
+    {
+      "path": "03_RESULTS/04_MEMORY_SPEED.csv",
+      "bytes": 44438,
+      "sha256": "0ba6c6c93a683e674d442a65dc799bb7e861d25ec8e8acc5df6973d86fdca540"
+    },
+    {
+      "path": "03_RESULTS/05_DATA_IMPACT.csv",
+      "bytes": 5396,
+      "sha256": "e7bc5fe6ed7b5553f84baa942d099b20c17dc191f6507e272e353b3ee3d0e7f4"
+    },
+    {
+      "path": "03_RESULTS/06_PARETO_RECALL_LATENCY.csv",
+      "bytes": 4988,
+      "sha256": "94d86affc6141da456b98005a46e032f76afddbc4e96c53c3e5fe25e626802d1"
+    },
+    {
+      "path": "03_RESULTS/07_PARETO_RECALL_MEMORY.csv",
+      "bytes": 4695,
+      "sha256": "40fa26e099f556060a046741864a98f6fd48c0ce204ee6a2c565466f7a7565ed"
+    },
+    {
+      "path": "03_RESULTS/08_PARETO_RECALL_BUILD.csv",
+      "bytes": 4973,
+      "sha256": "0e9a1ec43319f17dfb63067559687d7a86d69d1c9e717603f3c84465152f7d1c"
+    },
+    {
+      "path": "04_ANALYSIS/01_ADVANTAGES.md",
+      "bytes": 4121,
+      "sha256": "d1347a79aadc54c617ded81c8ba807069a985882d2a35ff1af54a31848144d17"
+    },
+    {
+      "path": "04_ANALYSIS/02_MEMORY_SPEED_ANALYSIS.md",
+      "bytes": 2016,
+      "sha256": "5a63275cf36e9def0d22deac3980ee8f2468a88d022185b3067b60b3ca51dc47"
+    },
+    {
+      "path": "04_ANALYSIS/03_DATA_IMPACT_ANALYSIS.md",
+      "bytes": 4082,
+      "sha256": "0e046bd1e57c13a88833698e674e3b55c27b7c4fdd0b7559aec35dcd50fae31f"
+    },
+    {
+      "path": "05_REPRO_LEGAL/01_EVIDENCE_MANIFEST.json",
+      "bytes": 6326,
+      "sha256": "27081f55366486c0b9d12d7ab022b48546b464a58371f1f42886125bcfd6b636"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T162225Z_22f14610_README_RUN.md",
+      "bytes": 260,
+      "sha256": "2da0dee8d210c3b421b351d539b1b2b89839a026c3368e5469af968085b50eab"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T162225Z_22f14610_legal_review_checklist.csv",
+      "bytes": 1366,
+      "sha256": "de42b35d1d88cd62eaf1e1961a41009cc3b90cea689f1c605a7c66337c4be80b"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T162225Z_22f14610_manifest.json",
+      "bytes": 1816,
+      "sha256": "d34afb5ad04fa521f9b4c84c638f74ed879a0634cf1b0f3b238d40a37b795430"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T230026Z_0b28f298_README_RUN.md",
+      "bytes": 261,
+      "sha256": "3a7991e3cea69f9a8a9114e131ff2e707011e6e9deae212f807a06a0db785fb7"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T230026Z_0b28f298_legal_review_checklist.csv",
+      "bytes": 1366,
+      "sha256": "de42b35d1d88cd62eaf1e1961a41009cc3b90cea689f1c605a7c66337c4be80b"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T230026Z_0b28f298_manifest.json",
+      "bytes": 1807,
+      "sha256": "826f725edd0b6a6c80390cd8ef773b01610c66d5b534592212ded0e3e3611dda"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T230137Z_5d7213c1_README_RUN.md",
+      "bytes": 263,
+      "sha256": "354e32187b9aa61621d6247b5bb755e6db2090cd7fea1ec21775687187478a3e"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T230137Z_5d7213c1_legal_review_checklist.csv",
+      "bytes": 1366,
+      "sha256": "de42b35d1d88cd62eaf1e1961a41009cc3b90cea689f1c605a7c66337c4be80b"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T230137Z_5d7213c1_manifest.json",
+      "bytes": 1807,
+      "sha256": "10a571ffa0f5488f1299bd52b2b26e887cad1cab19beb7fdde24fe307e428a26"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T230146Z_5dbac053_README_RUN.md",
+      "bytes": 246,
+      "sha256": "be27a0f645e50970cc520b03d70d0b89119632b4cd46783c4f0c04b0f8911b3c"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T230146Z_5dbac053_legal_review_checklist.csv",
+      "bytes": 1366,
+      "sha256": "de42b35d1d88cd62eaf1e1961a41009cc3b90cea689f1c605a7c66337c4be80b"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260405T230146Z_5dbac053_manifest.json",
+      "bytes": 1816,
+      "sha256": "060477357a2f0c36ade3cce7130f9b3a0e50da32edbbad6afe0c09c0b96089ce"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260406T000140Z_669d8f63_README_RUN.md",
+      "bytes": 247,
+      "sha256": "67bad9d9ddddd05c9c0c29caeade8fa7388203c03f4c826514ca51f6bf071c6d"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260406T000140Z_669d8f63_legal_review_checklist.csv",
+      "bytes": 2234,
+      "sha256": "008f1767b9e99796262ffb7a16fb1b0624e852073eef5b09e238b771082b5879"
+    },
+    {
+      "path": "05_REPRO_LEGAL/source_runs/20260406T000140Z_669d8f63_manifest.json",
+      "bytes": 2379,
+      "sha256": "437f1b27869e53e322fa1b18ff8d5026a80ea2df1a485dd917f7afa5071b008d"
+    },
+    {
+      "path": "06_PRESENTATION/00_DOSSIER_READABLE.html",
+      "bytes": 22580,
+      "sha256": "d0ce60dc07b59d93c2da690ff9332d388bec3a5b9759c1f14b11cd26809c0586"
+    },
+    {
+      "path": "06_PRESENTATION/01_DOSSIER.xlsx",
+      "bytes": 89306,
+      "sha256": "b492b9264ee7841269b50cd63b0fd16a1ed1e699a53647145b8fe41705f2fc78"
+    },
+    {
+      "path": "06_PRESENTATION/02_DOSSIER.docx",
+      "bytes": 15412,
+      "sha256": "a2a9f62c77e2c07899bbf10531e88f49f2c0058dc8ca4bfc1da20dbcbaca582b"
+    },
+    {
+      "path": "06_PRESENTATION/03_DOSSIER.pdf",
+      "bytes": 428114,
+      "sha256": "ea0663560361313f6e30121bc5633235a170ce0a7700201e69e3fb31342aef5c"
+    }
+  ]
+}

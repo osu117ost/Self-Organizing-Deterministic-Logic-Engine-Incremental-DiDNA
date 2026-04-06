@@ -1,0 +1,220 @@
+{
+  "generated_utc": "2026-04-06T00:23:24Z",
+  "files": [
+    {
+      "name": "report_summary.csv",
+      "bytes": 18693,
+      "sha256": "cbdaae7085826f1c8e29960500d61bad3ea0ac5daf03d7b11b291c16ab470cd4"
+    },
+    {
+      "name": "report_summary.json",
+      "bytes": 1944,
+      "sha256": "155329883876c4ba0c736ce5af9e74b1ae969b19b06bc2ef2ee2524a2c7f823a"
+    },
+    {
+      "name": "report_bilingual.md",
+      "bytes": 4503,
+      "sha256": "402f09549aee32ec185fc715106428a77dac6c6e021bdacdb8a6cd7c4291f3c5"
+    },
+    {
+      "name": "dossier_specification_bilingual.md",
+      "bytes": 5363,
+      "sha256": "1cea65c0577ff7745b97fd12f139f54346c12b5ef403ba48129b1a9135e2f4bd"
+    },
+    {
+      "name": "dossier_advantages_bilingual.md",
+      "bytes": 4121,
+      "sha256": "d1347a79aadc54c617ded81c8ba807069a985882d2a35ff1af54a31848144d17"
+    },
+    {
+      "name": "dossier_memory_speed_bilingual.md",
+      "bytes": 2016,
+      "sha256": "5a63275cf36e9def0d22deac3980ee8f2468a88d022185b3067b60b3ca51dc47"
+    },
+    {
+      "name": "dossier_data_impact_bilingual.md",
+      "bytes": 4082,
+      "sha256": "0e046bd1e57c13a88833698e674e3b55c27b7c4fdd0b7559aec35dcd50fae31f"
+    },
+    {
+      "name": "dossier_storage_characteristics_bilingual.md",
+      "bytes": 1216,
+      "sha256": "6652386bd3a20bf447f397982ad6fad6b94d87b41ada9aa1e7a459351abbff56"
+    },
+    {
+      "name": "dossier_external_benchmarks_bilingual.md",
+      "bytes": 3908,
+      "sha256": "9ed15349e3d941e68bb4b49731c12d15f88ba865949e05a6da9c9bd827d57cce"
+    },
+    {
+      "name": "dossier_bilingual.md",
+      "bytes": 26622,
+      "sha256": "e0d270aca6fc23f75b9abb65cf7d2fca6e77488a27b4af7801c7f505b37ff0a0"
+    },
+    {
+      "name": "dossier_acceptance_gates.json",
+      "bytes": 1372,
+      "sha256": "0802f9272db459baec09b3b4a71ece15dfadb89453f424e31313d2c19a5cbeaa"
+    },
+    {
+      "name": "dossier_evidence_matrix.csv",
+      "bytes": 61056,
+      "sha256": "feced043147799f90f20b34ed4f8b565dcc6adfc16a138071a61d2f1adc46891"
+    },
+    {
+      "name": "dossier_memory_speed_report.csv",
+      "bytes": 44438,
+      "sha256": "0ba6c6c93a683e674d442a65dc799bb7e861d25ec8e8acc5df6973d86fdca540"
+    },
+    {
+      "name": "dossier_data_impact_report.csv",
+      "bytes": 5396,
+      "sha256": "e7bc5fe6ed7b5553f84baa942d099b20c17dc191f6507e272e353b3ee3d0e7f4"
+    },
+    {
+      "name": "dossier_external_benchmarks.csv",
+      "bytes": 2071,
+      "sha256": "2f0a1473fd8171063dc6395d333841f0da6da4057e918420bc39216a48eabdef"
+    },
+    {
+      "name": "dossier_pareto_recall_latency.csv",
+      "bytes": 4988,
+      "sha256": "94d86affc6141da456b98005a46e032f76afddbc4e96c53c3e5fe25e626802d1"
+    },
+    {
+      "name": "dossier_pareto_recall_memory.csv",
+      "bytes": 4695,
+      "sha256": "40fa26e099f556060a046741864a98f6fd48c0ce204ee6a2c565466f7a7565ed"
+    },
+    {
+      "name": "dossier_pareto_recall_build.csv",
+      "bytes": 4973,
+      "sha256": "0e9a1ec43319f17dfb63067559687d7a86d69d1c9e717603f3c84465152f7d1c"
+    },
+    {
+      "name": "dossier_readable_bilingual.html",
+      "bytes": 22580,
+      "sha256": "d0ce60dc07b59d93c2da690ff9332d388bec3a5b9759c1f14b11cd26809c0586"
+    },
+    {
+      "name": "dossier_package.xlsx",
+      "bytes": 89306,
+      "sha256": "b492b9264ee7841269b50cd63b0fd16a1ed1e699a53647145b8fe41705f2fc78"
+    },
+    {
+      "name": "dossier_package.docx",
+      "bytes": 15412,
+      "sha256": "a2a9f62c77e2c07899bbf10531e88f49f2c0058dc8ca4bfc1da20dbcbaca582b"
+    },
+    {
+      "name": "dossier_bilingual.pdf",
+      "bytes": 428114,
+      "sha256": "ea0663560361313f6e30121bc5633235a170ce0a7700201e69e3fb31342aef5c"
+    }
+  ],
+  "meta": {
+    "input_dirs": [
+      "bench_runs/20260405T230026Z_0b28f298",
+      "bench_runs/20260405T230137Z_5d7213c1",
+      ".tmp/bench_runs_campaign/20260405T162225Z_22f14610",
+      ".tmp/bench_runs_campaign/20260405T230146Z_5dbac053",
+      ".tmp/bench_runs_campaign/20260406T000140Z_669d8f63"
+    ],
+    "report_json": {
+      "run_ids": [
+        "20260405T230026Z_0b28f298",
+        "20260405T230137Z_5d7213c1",
+        "20260405T162225Z_22f14610",
+        "20260405T230146Z_5dbac053",
+        "20260406T000140Z_669d8f63"
+      ],
+      "generated_utc": "2026-04-06T00:23:22Z",
+      "n_rows": 289,
+      "tracks": [
+        "ann",
+        "core",
+        "online"
+      ],
+      "tiers": [
+        "desktop",
+        "edge",
+        "server"
+      ],
+      "scales": [
+        "100M",
+        "10M",
+        "1M"
+      ],
+      "acceptance_gates": {
+        "generated_utc": "2026-04-06T00:23:22Z",
+        "overall_status": "pass",
+        "failing_gates": [],
+        "gates": {
+          "correctness": {
+            "status": "pass",
+            "latency_monotonic_violations": 0,
+            "negative_resource_violations": 0,
+            "audit_reference_rows": 10,
+            "audit_gap_bound": 2.0,
+            "audit_gap_violations": 0
+          },
+          "reproducibility": {
+            "status": "pass",
+            "cv_threshold": 0.25,
+            "max_observed_cv": 0.2400310284340078,
+            "groups_with_repetition": 48
+          },
+          "investor": {
+            "status": "pass",
+            "required_tiers": [
+              "desktop",
+              "edge",
+              "server"
+            ],
+            "required_tracks": [
+              "ann",
+              "core",
+              "online"
+            ],
+            "tiers_with_all_tracks": [
+              "desktop",
+              "edge",
+              "server"
+            ],
+            "tier_track_coverage": {
+              "server": [
+                "ann",
+                "core",
+                "online"
+              ],
+              "edge": [
+                "ann",
+                "core",
+                "online"
+              ],
+              "desktop": [
+                "ann",
+                "core",
+                "online"
+              ]
+            }
+          },
+          "scale": {
+            "status": "pass",
+            "ok_scales": [
+              "100M",
+              "10M",
+              "1M"
+            ],
+            "required_minimum": [
+              "1M",
+              "10M"
+            ],
+            "required_final_dossier": "100M",
+            "final_dossier_ready": true
+          }
+        }
+      }
+    }
+  }
+}

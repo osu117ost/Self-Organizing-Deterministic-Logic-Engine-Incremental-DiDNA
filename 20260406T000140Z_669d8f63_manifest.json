@@ -1,0 +1,51 @@
+{
+  "run_id": "20260406T000140Z_669d8f63",
+  "created_utc": "2026-04-06T00:07:44Z",
+  "config_path": ".tmp/bench_100m_fast.yaml",
+  "config_hash": "f95a7f624cc73d80edbf901771e4dc65ab79da1852f1284233692ee03bd27052",
+  "git_commit": null,
+  "container_hash": "host-process",
+  "hardware_fingerprint": {
+    "platform": "Linux-6.19.8-200.fc43.x86_64-x86_64-with-glibc2.42",
+    "machine": "x86_64",
+    "cpu_model": "11th Gen Intel(R) Core(TM) i9-11900K @ 3.50GHz",
+    "cpu_count": 16,
+    "mem_total_mb": 31832.40234375,
+    "python": "3.14.3 (main, Mar 26 2026, 00:00:00) [GCC 15.2.1 20260123 (Red Hat 15.2.1-7)]",
+    "gcc": "gcc (GCC) 15.2.1 20260123 (Red Hat 15.2.1-7)"
+  },
+  "hardware_fingerprint_hash": "c8192d1f197114d7029716a51534ed95463ddf3a2738098805be7c858cafb122",
+  "tool_versions": {
+    "python": "3.14.3 (main, Mar 26 2026, 00:00:00) [GCC 15.2.1 20260123 (Red Hat 15.2.1-7)]",
+    "gcc": "gcc (GCC) 15.2.1 20260123 (Red Hat 15.2.1-7)",
+    "bench_core256_tool": "usage:"
+  },
+  "official_source_pack": [
+    "https://mlcommons.org/benchmarks/",
+    "https://docs.mlcommons.org/inference/index_gh/",
+    "https://github.com/erikbern/ann-benchmarks",
+    "https://ann-benchmarks.com/",
+    "https://github.com/harsha-simhadri/big-ann-benchmarks",
+    "https://big-ann-benchmarks.com/neurips23.html",
+    "https://github.com/facebookresearch/faiss/wiki/Binary-hashing-index-benchmark",
+    "https://github.com/facebookresearch/faiss",
+    "https://github.com/nmslib/hnswlib",
+    "https://github.com/nmslib/nmslib",
+    "https://github.com/learnedsystems/SOSD",
+    "https://github.com/brianfrankcooper/YCSB",
+    "https://raw.githubusercontent.com/brianfrankcooper/YCSB/master/workloads/workloada",
+    "https://raw.githubusercontent.com/brianfrankcooper/YCSB/master/workloads/workloadf",
+    "https://github.com/facebook/rocksdb/wiki/Benchmarking-tools",
+    "https://github.com/google/benchmark",
+    "https://github.com/eembc/coremark",
+    "https://github.com/lsils/benchmarks",
+    "https://people.eecs.berkeley.edu/~alanmi/benchmarks/table_ex/",
+    "https://people.eecs.berkeley.edu/~alanmi/benchmarks/iwls2005/",
+    "https://moa.cms.waikato.ac.nz/",
+    "https://riverml.xyz/latest/",
+    "https://www.openml.org/benchmark",
+    "https://archive.ics.uci.edu/"
+  ],
+  "licensing_policy": "internal_review",
+  "legal_gate_status": "pending_internal_review"
+}

@@ -1,0 +1,29 @@
+track,dataset_id,data_regime,tier,scale,rows_in_group,mean_qps,mean_lat_p95_ms,mean_bytes_per_insert,mean_recall_at_k,mean_error_bits_min_hamming,best_algorithm_by_qps,best_qps,best_algorithm_by_compactness,best_qps_per_index_mb
+ann,openml:adult,mixed tabular (numeric + categorical),desktop,1M,4,23887.930114800056,15.946745872497559,32.0,0.998046875,0.00634765625,hnswlib-l2-bits,67876.71938807763,hnswlib-l2-bits,44483.68681817056
+ann,openml:adult,mixed tabular (numeric + categorical),edge,1M,4,19542.16661852265,10.255753993988037,32.0,0.99609375,0.0087890625,hnswlib-l2-bits,57437.77811062373,hnswlib-l2-bits,37642.422262578366
+ann,openml:adult,mixed tabular (numeric + categorical),server,100M,4,25832.585588429603,52.18195915222168,32.0,0.990234375,0.011067708333333332,hnswlib-l2-bits,75791.75718218395,hnswlib-l2-bits,6208.860748364509
+ann,openml:adult,mixed tabular (numeric + categorical),server,10M,4,19370.696065522414,21.289348602294922,32.0,0.876953125,25.38671875,hnswlib-l2-bits,54929.879728865584,hnswlib-l2-bits,8999.711494777337
+ann,openml:adult,mixed tabular (numeric + categorical),server,1M,4,21307.29900239247,10.228753089904785,32.0,0.892578125,29.6298828125,hnswlib-l2-bits,75783.73321099623,hnswlib-l2-bits,49665.62739715849
+ann,synthetic_binary256,binary clustered synthetic,desktop,1M,4,7571.490836649475,9.268224239349365,32.0,0.960546875,0.1474609375,nmslib-hnsw-l2-bits,18294.205850782888,nmslib-hnsw-l2-bits,11989.290746369074
+ann,synthetic_binary256,binary clustered synthetic,edge,1M,4,6764.4826704356365,10.551512241363525,32.0,0.97890625,0.1318359375,nmslib-hnsw-l2-bits,18038.350354049944,nmslib-hnsw-l2-bits,11821.613288030172
+ann,synthetic_binary256,binary clustered synthetic,server,100M,4,8990.447033517985,50.1437783241272,32.0,0.939453125,0.44498697916666663,nmslib-hnsw-l2-bits,22707.073678274355,nmslib-hnsw-l2-bits,1860.1634757242352
+ann,synthetic_binary256,binary clustered synthetic,server,10M,4,7439.561394943746,22.31496572494507,32.0,0.9486328125,0.26513671875,nmslib-hnsw-l2-bits,18266.196417331543,nmslib-hnsw-l2-bits,2992.7336210156
+ann,synthetic_binary256,binary clustered synthetic,server,1M,4,7644.110046524743,10.921239852905273,32.0,0.9783203125,0.14404296875,nmslib-hnsw-l2-bits,19004.448251754442,nmslib-hnsw-l2-bits,12454.75520626979
+core,core:adversarial,prefix-collision adversarial,desktop,1M,20,88383149.80466315,9.01936e-05,1.50232,,,core256/match_batch,403998779.923685,core256/match_batch,1409897440.8157315
+core,core:adversarial,prefix-collision adversarial,edge,1M,20,78556331.7315842,9.154614999999999e-05,1.50232,,,core256/match_batch,252729478.366357,core256/match_batch,881989408.073783
+core,core:adversarial,prefix-collision adversarial,server,1M,20,92930428.51944509,9.19986e-05,1.50232,,,core256/match_batch,395728506.50083,core256/match_batch,1381035380.0542305
+core,core:clustered,near-duplicate clustered keys,desktop,1M,20,43269405.9484021,0.0002587474,61.733242,,,core256/match_batch,162192189.635108,core256/match_batch,13914852.797898702
+core,core:clustered,near-duplicate clustered keys,edge,1M,20,41182419.0259871,0.00025064689999999997,61.733242,,,core256/match_batch,132234639.789535,core256/match_batch,11263975.13961979
+core,core:clustered,near-duplicate clustered keys,server,1M,20,41105757.7754359,0.00028449955,61.733242,,,core256/match_batch,136984987.815185,core256/match_batch,11752267.14220059
+core,core:legacy_compat,core-legacy_compat,desktop,1M,2,93000.0,,,,,compat/bench_tree,93000.0,compat/bench_tree,
+core,core:legacy_compat,core-legacy_compat,edge,1M,2,111000.0,,,,,compat/bench_tree,111000.0,compat/bench_tree,
+core,core:legacy_compat,core-legacy_compat,server,1M,2,91000.0,,,,,compat/bench_tree,91000.0,compat/bench_tree,
+core,core:random,uniform-random 256-bit,desktop,1M,20,35224856.6272261,0.00026564375,63.49978599999999,,,core256/match_batch,96453268.632481,core256/match_batch,7963666.667892839
+core,core:random,uniform-random 256-bit,edge,1M,20,34499440.9508819,0.00025483525,63.49978599999999,,,core256/match_batch,89687023.677823,core256/match_batch,7405166.575115966
+core,core:random,uniform-random 256-bit,server,1M,20,33629342.44491725,0.00028235905,63.49978599999999,,,core256/match_batch,89937358.629714,core256/match_batch,7425600.868471743
+core,core:replay,replay/hash-stream,desktop,1M,20,35252122.36813815,0.00025355479999999997,63.50010999999999,,,core256/match_batch,98103319.472969,core256/match_batch,8099890.403314887
+core,core:replay,replay/hash-stream,edge,1M,20,35333781.9996866,0.00027380315,63.50010999999999,,,core256/match_batch,106677761.153827,core256/match_batch,8807838.29190495
+core,core:replay,replay/hash-stream,server,1M,20,35086573.7915764,0.000283621,63.50010999999999,,,core256/match_batch,101462222.824231,core256/match_batch,8377217.910342269
+online,online:synthetic_drift,stream with concept drift,desktop,1M,1,34593.009614,0.001009,63.50175,,96.668169296,core256/online_delayed,34593.009614,core256/online_delayed,14280.472447219827
+online,online:synthetic_drift,stream with concept drift,edge,1M,1,35093.895485,0.000984,63.50175,,96.668169296,core256/online_delayed,35093.895485,core256/online_delayed,14487.245057057231
+online,online:synthetic_drift,stream with concept drift,server,1M,1,38040.678162,0.001169,63.50175,,96.668169296,core256/online_delayed,38040.678162,core256/online_delayed,15703.717670929269

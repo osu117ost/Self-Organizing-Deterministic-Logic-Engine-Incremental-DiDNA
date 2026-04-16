@@ -1,0 +1,84 @@
+# Large Official Benchmark Zone for core256/simplefill
+#
+# Main commands:
+#   bench run --config bench_zone.yaml --track core --tier server --scale 1M
+#   bench report --input bench_runs/<run_id> --lang both --format all
+#
+# NOTE:
+# - This config keeps "requested_points" at 1M/10M/100M for investor specification traces.
+# - Effective sizes are local-execution defaults and can be increased for full-scale campaigns.
+
+output_root: bench_runs
+seed: 123456789
+licensing_policy: internal_review
+report_language: both
+
+global:
+  repetitions: 5
+  top_k: 10
+  hamming_audit_every: 10
+  hamming_audit_max_queries: 128
+  legacy_compat_enabled: true
+
+scale_profiles:
+  "1M":
+    requested_points: 1000000
+    core_samples: 1000000
+    ann_db: 1000000
+    ann_queries: 20000
+    online_events: 400000
+  "4M":
+    requested_points: 4000000
+    core_samples: 4000000
+    ann_db: 4000000
+    ann_queries: 50000
+    online_events: 1200000
+  "12M":
+    requested_points: 12000000
+    core_samples: 12000000
+    ann_db: 12000000
+    ann_queries: 100000
+    online_events: 2500000
+
+tiers:
+  server:
+    notes: "high core count, large RAM"
+  desktop:
+    notes: "workstation class"
+  edge:
+    notes: "resource-constrained profile"
+
+tracks:
+  core:
+    enabled: true
+    framework: google_benchmark_compat+native
+    workloads:
+      - random
+      - clustered
+      - adversarial
+      - replay
+
+  ann:
+    enabled: true
+    framework: ann-benchmarks+big-ann+native
+    max_ground_truth_queries: 128
+    baselines:
+      - faiss
+      - hnswlib
+      - nmslib
+    datasets:
+      - id: synthetic_binary256
+        source: synthetic
+        kind: binary256_clustered
+      - id: openml:adult
+        source: openml
+        name: adult
+
+  online:
+    enabled: true
+    framework: delayed_preq+drift+core256_similarity
+    delay: 64
+    drift_interval: 25000
+    hamming_sample_rate: 10
+    buffer_cap: 65536
+

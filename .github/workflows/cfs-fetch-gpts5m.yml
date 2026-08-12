@@ -1,0 +1,50 @@
+name: CFS GPT-S-5M checkpoint fetch
+
+on:
+  push:
+    branches:
+      - cfs-gpts5m-benchmark-20260812
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  MODEL_REPO: AxiomicLabs/GPT-S-5M
+  MODEL_REVISION: main
+
+jobs:
+  fetch-checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Download the public trained checkpoint and model metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p artifact/model
+          base="https://huggingface.co/${MODEL_REPO}/resolve/${MODEL_REVISION}"
+          curl --fail --location --retry 5 --retry-all-errors \
+            --output artifact/model/model.safetensors \
+            "${base}/model.safetensors?download=true"
+          for f in config.json configuration_gpts2.py modeling_gpts2.py generation_config.json README.md; do
+            curl --fail --location --retry 5 --retry-all-errors \
+              --output "artifact/model/${f}" "${base}/${f}?download=true"
+          done
+          sha256sum artifact/model/* | sort -k2 > artifact/SHA256SUMS
+          stat --printf='%n\t%s bytes\n' artifact/model/* | sort > artifact/SIZES.txt
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('artifact/model/model.safetensors')
+          assert p.read_bytes()[:8] != b'', 'checkpoint is empty'
+          print(f'checkpoint_bytes={p.stat().st_size}')
+          PY
+
+      - name: Upload immutable benchmark input
+        uses: actions/upload-artifact@v4
+        with:
+          name: gpt-s-5m-trained-checkpoint
+          path: artifact/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
